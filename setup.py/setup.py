@@ -12,7 +12,6 @@ setup(
     packages=find_packages(),                
     install_requires=[                       
         "requests>=2.0.0",                         
-        "tkinter",
         "PIL",
         "pytz",
         "json"
