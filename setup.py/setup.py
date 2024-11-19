@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages 
 
 
+
 setup(
     name="projC",                     
     version="0.1.0",                        
@@ -11,10 +12,10 @@ setup(
     url="https://claudiagabriela72.github.io/python/",  
     packages=find_packages(),                
     install_requires=[                       
-        "requests>=2.0.0",                         
+        "requests>=2.0.0",
         "PIL",
         "pytz",
-        "json"
+        "json",
     ],
     classifiers=[                            
         "Programming Language :: Python :: 3",
